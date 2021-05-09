@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9065226114553173149}
   - component: {fileID: -8024257469714431872}
+  - component: {fileID: 4482684244962920184}
   m_Layer: 0
   m_Name: RedCrystalParent
   m_TagString: Untagged
@@ -50,6 +51,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _: 
+--- !u!114 &4482684244962920184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2208369696312958515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee20f568131e0c5429c4d6b085510ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  X: 0
+  Y: 1
+  Z: 0
+  ReverseX: 0
+  ReverseY: 0
+  ReverseZ: 0
+  RotateSpace: 1
+  Speed: 20
 --- !u!1 &3259385920220508331
 GameObject:
   m_ObjectHideFlags: 0

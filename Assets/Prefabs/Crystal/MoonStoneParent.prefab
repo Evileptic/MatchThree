@@ -111,6 +111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7904773008359216839}
   - component: {fileID: -3039397296961143693}
+  - component: {fileID: 1390535696986119831}
   m_Layer: 0
   m_Name: MoonStoneParent
   m_TagString: Untagged
@@ -151,3 +152,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _: 
+--- !u!114 &1390535696986119831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777134318658224083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee20f568131e0c5429c4d6b085510ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  X: 0
+  Y: 1
+  Z: 0
+  ReverseX: 0
+  ReverseY: 0
+  ReverseZ: 0
+  RotateSpace: 1
+  Speed: 20

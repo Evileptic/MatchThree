@@ -111,6 +111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6543871789181567168}
   - component: {fileID: -7842750299347223330}
+  - component: {fileID: -2526539663332620613}
   m_Layer: 0
   m_Name: ObsidianParent
   m_TagString: Untagged
@@ -151,3 +152,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _: 
+--- !u!114 &-2526539663332620613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2967990022736041956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee20f568131e0c5429c4d6b085510ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  X: 0
+  Y: 1
+  Z: 0
+  ReverseX: 0
+  ReverseY: 0
+  ReverseZ: 0
+  RotateSpace: 1
+  Speed: 20

@@ -111,6 +111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3208384229594587552}
   - component: {fileID: -431912523129055140}
+  - component: {fileID: -8703985183068652637}
   m_Layer: 0
   m_Name: BlueCrystalParent
   m_TagString: Untagged
@@ -150,3 +151,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1becc62b713b8be4aaed169bb2eed771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _: 
+--- !u!114 &-8703985183068652637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2800193633018763980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee20f568131e0c5429c4d6b085510ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  X: 0
+  Y: 1
+  Z: 0
+  ReverseX: 0
+  ReverseY: 0
+  ReverseZ: 0
+  RotateSpace: 1
+  Speed: 20
