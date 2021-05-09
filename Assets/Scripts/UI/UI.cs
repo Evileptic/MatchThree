@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ZlodeyPack
+namespace MatchThree
 {
     public class UI : MonoBehaviour
     {

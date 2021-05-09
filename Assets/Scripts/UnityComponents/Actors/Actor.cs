@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace ZlodeyPack
+namespace MatchThree
 {
     public abstract class Actor : MonoBehaviour
     {

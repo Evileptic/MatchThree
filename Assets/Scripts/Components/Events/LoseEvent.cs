@@ -1,5 +1,5 @@
 ﻿
-namespace ZlodeyPack
+namespace MatchThree
 {
     public struct LoseEvent
     {

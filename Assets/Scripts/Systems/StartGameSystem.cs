@@ -1,6 +1,6 @@
 ﻿using Leopotam.Ecs;
 
-namespace ZlodeyPack
+namespace MatchThree
 {
     public class StartGameSystem : Injects, IEcsRunSystem
     {

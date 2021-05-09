@@ -12,8 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d61642a386d81a44a790f181fdfcb53, type: 3}
   m_Name: StaticData
   m_EditorClassIdentifier: 
-  Levels: {fileID: 11400000, guid: 86f21e4841fc3fa4cbdfa5199d097e90, type: 2}
-  InputSensitivity: 0.1
-  MinSwipeLength: 150
+  BoardHeight: 8
+  BoardWidth: 8
   SoundManagerPrefab: {fileID: 8562733863014869281, guid: 04803b6c062e5b8448431778a4fe598b, type: 3}
   UIPrefab: {fileID: 7691685437204089913, guid: 95d0bd853838be542aab699cde00ee66, type: 3}
+  RowPrefab: {fileID: 5533267865678558628, guid: ca35cccab9a3e7740b0dc575b8781027, type: 3}
+  CellPrefab: {fileID: 3596305447153413836, guid: c6e35071e66c4a04798ae03228e3e6a4, type: 3}
+  ElementPrefabs:
+  - {fileID: -431912523129055140, guid: ec2940788f58dda41908e05486f4e6e3, type: 3}
+  - {fileID: -8611917513724158905, guid: 6f2110c5db3b6724589193f61acf6efb, type: 3}
+  - {fileID: -3039397296961143693, guid: 9e53c18ab0e2f6b4e9cd4dca06a5a00c, type: 3}
+  - {fileID: -7842750299347223330, guid: bee2abec404df8d49974415dbcdd16c3, type: 3}
+  - {fileID: -7919754636691333044, guid: 194a212e01358cf4e8a4cf606bd4c10f, type: 3}
+  - {fileID: -8024257469714431872, guid: b632a2b061d10a246a14a2272e3526da, type: 3}
+  - {fileID: 7993275030505754871, guid: c28280d1a911c42459a31004a659853e, type: 3}

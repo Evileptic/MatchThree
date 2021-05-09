@@ -1,7 +1,7 @@
 ﻿using Leopotam.Ecs;
 using UnityEngine;
 
-namespace ZlodeyPack
+namespace MatchThree
 {
     public class Screen : MonoBehaviour
     {

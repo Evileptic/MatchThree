@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-namespace ZlodeyPack
+namespace MatchThree
 {
     public class SceneData : MonoBehaviour
     {
-
+        public BoardActor BoardActorRef;
     }
 }

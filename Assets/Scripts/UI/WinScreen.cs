@@ -1,6 +1,6 @@
 ﻿using UnityEngine.UI;
 
-namespace ZlodeyPack
+namespace MatchThree
 {
     public class WinScreen : Screen
     {

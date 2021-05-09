@@ -1,7 +1,7 @@
 using Leopotam.Ecs;
 using UnityEngine;
 
-namespace ZlodeyPack
+namespace MatchThree
 {
     sealed class Game : MonoBehaviour
     {
@@ -28,7 +28,9 @@ namespace ZlodeyPack
             UI _ui = Instantiate(_static.UIPrefab);
 
             _systems
-                .Add(new InitializeSystem())                
+                .Add(new InitializeSystem())           
+                
+                .Add(new CreateBoardSystem())
 
                 .Add(new StartGameSystem())
 
