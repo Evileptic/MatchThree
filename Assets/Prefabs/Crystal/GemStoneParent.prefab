@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 1852757324760394543}
   - component: {fileID: -8611917513724158905}
   - component: {fileID: 3817636759723142782}
+  - component: {fileID: -8558692193454903746}
+  - component: {fileID: 4450204586348620273}
+  - component: {fileID: 1900793191123695197}
   m_Layer: 0
   m_Name: GemStoneParent
   m_TagString: Untagged
@@ -51,6 +54,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _: 
+  Animator: {fileID: 0}
 --- !u!114 &3817636759723142782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,6 +75,54 @@ MonoBehaviour:
   ReverseZ: 0
   RotateSpace: 1
   Speed: 20
+--- !u!135 &-8558692193454903746
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081115947245182032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 7
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4450204586348620273
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081115947245182032}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!95 &1900793191123695197
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081115947245182032}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 293bc25d0e78aa24fb74d09124e172c8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9077464165285646307
 GameObject:
   m_ObjectHideFlags: 0
@@ -82,9 +134,8 @@ GameObject:
   - component: {fileID: 8262668998665775364}
   - component: {fileID: 8277323604904567577}
   - component: {fileID: 894241674226608016}
-  - component: {fileID: 1320823355120089775}
   m_Layer: 0
-  m_Name: GemStone
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,22 +204,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &1320823355120089775
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9077464165285646307}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c9c1c6b4df1b6c34a81f5fa97630b07e, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

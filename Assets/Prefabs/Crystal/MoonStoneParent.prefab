@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 5570666028282671804}
   - component: {fileID: 8403158100937268899}
   - component: {fileID: 7449614853945544063}
-  - component: {fileID: 7989785745600055924}
   m_Layer: 0
-  m_Name: MoonStone
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,25 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &7989785745600055924
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991206237337181022}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 7406bc5b8e13a284a929f0fb559ae654, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2777134318658224083
 GameObject:
   m_ObjectHideFlags: 0
@@ -112,6 +92,9 @@ GameObject:
   - component: {fileID: 7904773008359216839}
   - component: {fileID: -3039397296961143693}
   - component: {fileID: 1390535696986119831}
+  - component: {fileID: 828053621590570407}
+  - component: {fileID: 2115222581871341272}
+  - component: {fileID: 8432003354860087201}
   m_Layer: 0
   m_Name: MoonStoneParent
   m_TagString: Untagged
@@ -152,6 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _: 
+  Animator: {fileID: 0}
 --- !u!114 &1390535696986119831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,3 +156,51 @@ MonoBehaviour:
   ReverseZ: 0
   RotateSpace: 1
   Speed: 20
+--- !u!135 &828053621590570407
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777134318658224083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 7
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &2115222581871341272
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777134318658224083}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!95 &8432003354860087201
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777134318658224083}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 293bc25d0e78aa24fb74d09124e172c8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
